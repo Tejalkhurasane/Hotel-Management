@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage3.master.cs" Inherits="MasterPage3" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <link href="css/menu2.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+        .auto-style1 {
+             width: 1000px;
+            border-style:solid;
+            border-width:2px;
+            margin-bottom:50px;
+            margin-left:50px;
+            margin-rigth:50px;
+            margin-top:50px;
+            align:center;
+        }
+        .auto-style2 {
+            height: 50px;
+            width: 1000px;
+            font-size: x-large;
+        }
+        .auto-style3 {
+            height: 151px;
+            width: 1000px;
+        }
+        .auto-style5 {
+            height: 70px;
+            width: 1000px;
+        }
+        .auto-style6 {
+            height: 650px;
+            width: 1000px;
+        }
+        .auto-style7 {
+            height: 50px;
+            width: 1000px;
+            font-size: xx-large;
+            text-align: center;
+        }
+    </style>
+    
+
+</head>
+<body>
+    
+    
+      <center>  <table class="auto-style1" cell-pading="2px" cell-spacing="2px"  border="2px"  hight="1000px" width="1000px"  >
+        <tr>
+            <td class="auto-style7"height="50px" width="1000px" align="center"><strong>Hotel Management System</strong></td></center>
+        </tr>
+    
+  
+        <tr>
+            <td class="auto-style3"height="150px" width="1000px"><img src="image/header.jpg" hight="150px" style="height: 179px; width: 1385px;"/></td>
+        </tr>
+        <tr>
+            <td class="auto-style2" width="1000px"><marquee behavior="alternate" scrollamount="10" style="font-size: xx-large"><strong>&quot;Nice People,Taking Care of Nice People&quot;</strong></marquee></td>
+        </tr>
+        <tr>
+            <td class="auto-style5" width="1000px">
+               
+  <h2> <strong></strong></h2>
+<ul id="dropdownmenu">
+  <li>
+    <a href="Home.aspx">Home</a>
+ 
+  </li>
+  <li>
+    <a href="customprofile.aspx">My Profile</a>
+    
+  </li>
+   
+  <li>
+    <a href="Showbookedrooms.aspx">Booked Room</a>
+   
+  </li>
+    
+     <li>
+  <a href="Showbookedtables.aspx">Booked Table</a>
+ 
+  </li>
+     <li>
+  <a href="home.aspx">Logout</a>
+ 
+  </li>
+  
+   
+   
+
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style6" height="650px" width="1000px" bgcolor="">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table></center>
+    
+    
+    
+    
+</body>
+</html>
